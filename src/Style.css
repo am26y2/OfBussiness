@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.row {
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar {
+  margin: 0 px;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
+.buttonleft {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25%;
+}
+.heading {
+  background-color: lightsteelblue;
+}
+.box {
+  height: 20vh;
+  width: 100%;
+  align-items: center;
+  border: 2px solid lightgreen;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
